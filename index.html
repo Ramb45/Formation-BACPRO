@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>RAMBAL_A</title>
+    <link href="styles.css" rel="stylesheet" />
+    <style type="text/css">
+        body {
+            background: -moz-linear-gradient(top, #5900ff85 0%, #0044ff4f 50%);
+            background: -webkit-gradient( linear, 0% 0%, 0% 50%, from(#5900ffab), to(#0044ff85));
+        }
+    </style>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="conteneur">
+        <h1>Présentation</h1>
+        <nav>
+            <ul>
+                <li><a href="#contenu1" id="propos">CV</a></li>
+                <li><a href="#contenu2" id="portfolio">Portfolio</a></li>
+                <li><a href="#contenu3" id="contact">Contact Moi</a></li>
+                <li><a href="#contenu4" id="video">Vidéos</a></li>
+                <li><a href="#contenu5" id="localisation">Localisation</a></li>
+            </ul>
+        </nav>
+        <div id="contenu">
+            <div id="contenu1">
+                <article class="gauche">
+                    <h2>01 - mon CV</h2>
+                    <h3>Photographe Michel Wood</h3>
+                    <p>
+                        Portfolio du photographe, photographies de Fleurs, de nature et d'environnement, la région Nord et Ouest : la Bretagne, la Basse-Normandie, les Pays de Loire, l'île de Ré, Picardie.
+                    </p>
+                    <h3>Mes compétences</h3>
+                    <ul>
+                        <li>Reportage photo</li>
+                        <li>Photos de studio</li>
+                        <li>Effets spciaux</li>
+                        <li>Développement et Tirages</li>
+                        <li>Photos de mariage</li>
+                    </ul>
+                </article>
+                <div class="droite">CV</div>
+            </div>
+            <!--fin de contenu1-->
+            <div id="contenu2">
+                <article class="gauche">
+                    <h2>02 - Portfolio</h2>
+                    <p>
+                        <a href="#1" id="lien1"><img src="images-port/img1.jpg" width="400" height="300" /></a>
+                        <a href="#2" id="lien2"><img src="images-port/img2.jpg" width="400" height="300" /></a>
+                        <a href="#3" id="lien3"><img src="images-port/img3.jpg" width="400" height="300" /></a>
+                        <a href="#4" id="lien4"><img src="images-port/img4.jpg" /></a>
+                    </p>
+                </article>
+                <div class="droite">PORTFOLIO</div>
+            </div>
+            <!--fin de contenu2-->
+            <div id="contenu3">
+                <article class="gauche">
+                    <h2>03 - Contact</h2>
+                    <form action="" method="get">
+                        <ul>
+                            <li>
+                                <label for="nom">Nom : </label>
+                                <input type="text" id="nom" name="nom" />
+                            </li>
+                            <li>
+                                <label for="nom">Prénom</label>
+                                <input type="text" id="prenom" name="prenom" />
+                            </li>
+                            <li>
+                                <label for="mail">Mail</label>
+                                <input type="mail" id="mail" name="mail" />
+                            </li>
+                            <li>
+                                <input type="submit" id="envoyer" name="envoyer" value="envoyer" />
+                            </li>
+                        </ul>
+                    </form>
+                </article>
+                <div class="droite">CONTACT</div>
+            </div>
+            <!--fin de contenu3-->
+            <div id="contenu4">
+                <article class="gauche">
+                    <h2>04 - Video</h2>
+                    <video controls>
+              <source src="video/elephant.ogv" />
+              <source src="video/elephant.mp4" />
+              <object
+                type="application/x-shockwave-flash"
+                data="dewtube.swf"
+                width="512"
+                height="384"
+              >
+                <param name="allowFullScreen" value="true" />
+                <param name="movie" value="dewtube.swf" />
+                <param
+                  name="flashvars"
+                  value="movie=video/elephant.flv&amp;width=512&amp;height=384&amp;autostart=1"
+                />
+              </object>
+            </video>
+                </article>
+                <div class="droite">VIDEO</div>
+            </div>
+            <!--fin de contenu4-->
+            <div id="contenu5">
+                <article class="gauche">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2671.9779753503367!2d2.0559191153138796!3d47.9561499717591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e50243bd73a9c5%3A0xc3310b9f58ab23a!2s11%20Rue%20du%20Meteil%2C%2045760%20Vennecy!5e0!3m2!1sfr!2sfr!4v1635874784552!5m2!1sfr!2sfr"
+                        width="380" height="320" style="border: 1" allowfullscreen="" loading="lazy"></iframe>
+                </article>
+                <div class="droite">LOCALISATION</div>
+                <!-- fin du contenu5-->
+            </div>
+            <!--fin de contenu-->
+            <footer>&copy; 2021</footer>
+        </div>
+    </div>
+    <!--fin de conteneur-->
+</body>
+
+</html>
